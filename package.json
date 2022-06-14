@@ -1,23 +1,46 @@
 {
-  "name": "jekyll-theme-chirpy",
-  "version": "5.2.0",
-  "description": "A minimal, responsive, and powerful Jekyll theme for presenting professional writing.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cotes2020/jekyll-theme-chirpy.git"
-  },
-  "author": "Cotes Chung",
+  "name": "aurora",
+  "version": "2.0.0",
+  "description": "An awesome blog theme",
+  "author": "蝉時雨 <me@chanshiyu.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy#readme",
+  "dependencies": {
+    "@moefe/vue-aplayer": "^2.0.0-beta.5",
+    "aos": "^3.0.0-beta.6",
+    "clipboard": "^2.0.6",
+    "core-js": "^3.6.5",
+    "gitalk": "^1.6.2",
+    "highlight.js": "^10.2.0",
+    "katex": "^0.12.0",
+    "leancloud-storage": "^4.6.1",
+    "marked": "^1.1.1",
+    "timeago.js": "^4.0.2",
+    "vue": "^2.6.12",
+    "vue-progressbar": "^0.7.5",
+    "vue-router": "^3.4.3",
+    "vuex": "^3.5.1",
+    "zooming": "^2.1.1"
+  },
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-insert": "^0.5.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-uglify": "^3.0.2",
-    "uglify-js": "^3.14.3"
+    "@vue/cli-plugin-babel": "^4.5.4",
+    "@vue/cli-plugin-eslint": "^4.5.4",
+    "@vue/cli-plugin-router": "^4.5.4",
+    "@vue/cli-plugin-vuex": "^4.5.4",
+    "@vue/cli-service": "^4.5.4",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.1",
+    "sass-loader": "^10.0.2",
+    "vue-template-compiler": "^2.6.12"
   }
 }
